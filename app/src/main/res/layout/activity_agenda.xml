@@ -12,19 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nuevo_contacto"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/tvNombre"
+    <EditText
+        android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/nombre" />
+        android:ems="10"
+        android:hint="@string/nombreh"
+        android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/tvApellidos"
+    <EditText
+        android:id="@+id/etApellidos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/apellidos" />
+        android:ems="10"
+        android:hint="@string/apellidosh"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/etTelefono"

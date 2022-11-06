@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecetaActivity">
+
+    <ImageView
+        android:id="@+id/imgLubina"
+        android:layout_width="455dp"
+        android:layout_height="184dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lubina" />
+
+    <TextView
+        android:id="@+id/tvTituloLubina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUBINA AL HORNO CON VERDURAS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTituloNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jesús Ayala"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloLubina"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25171" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLubina" />
+
+    <TextView
+        android:id="@+id/tvDescripcionTexto"
+        android:layout_width="206dp"
+        android:layout_height="162dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta leo purus, eget convallis ex cursus et. Praesent risus diam, blandit vitae ipsum laoreet, egestas venenatis eros. Curabitur quis mauris a tortor lobortis maximus et quis justo. Praesent ut magna odio. Mauris in ornare neque, ac ullamcorper ipsum. Nulla luctus mauris eu est malesuada, quis cursus ipsum porta. Pellentesque ullamcorper nisi eu ligula lobortis pretium. Nunc hendrerit sit amet augue et tincidunt. Cras luctus dictum elit, non elementum nulla. Donec sodales vel est nec iaculis."
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcion" />
+
+    <TextView
+        android:id="@+id/tvIngredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/imgLubina" />
+
+    <TextView
+        android:id="@+id/tvIngredientesTexto"
+        android:layout_width="201dp"
+        android:layout_height="161dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta leo purus, eget convallis ex cursus et. Praesent risus diam, blandit vitae ipsum laoreet, egestas venenatis eros. Curabitur quis mauris a tortor lobortis maximus et quis justo. Praesent ut magna odio. Mauris in ornare neque, ac ullamcorper ipsum. Nulla luctus mauris eu est malesuada, quis cursus ipsum porta. Pellentesque ullamcorper nisi eu ligula lobortis pretium. Nunc hendrerit sit amet augue et tincidunt. Cras luctus dictum elit, non elementum nulla. Donec sodales vel est nec iaculis."
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/tvIngredientes" />
+
+    <TextView
+        android:id="@+id/tvReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Receta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcionTexto" />
+
+    <TextView
+        android:id="@+id/tvRecetaTexto"
+        android:layout_width="398dp"
+        android:layout_height="317dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta leo purus, eget convallis ex cursus et. Praesent risus diam, blandit vitae ipsum laoreet, egestas venenatis eros. Curabitur quis mauris a tortor lobortis maximus et quis justo. Praesent ut magna odio. Mauris in ornare neque, ac ullamcorper ipsum. Nulla luctus mauris eu est malesuada, quis cursus ipsum porta. Pellentesque ullamcorper nisi eu ligula lobortis pretium. Nunc hendrerit sit amet augue et tincidunt. Cras luctus dictum elit, non elementum nulla. Donec sodales vel est nec iaculis."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReceta" />
+
+    <RatingBar
+        android:id="@+id/rbPuntuacion"
+        android:layout_width="247dp"
+        android:layout_height="56dp"
+        android:numStars="5"
+        android:rating="3.5"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

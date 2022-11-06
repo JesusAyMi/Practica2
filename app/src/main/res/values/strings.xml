@@ -2,10 +2,10 @@
     <string name="app_name">Practica2</string>
     <string name="jes_s_ayala_pr_ctica_2">Jesús Ayala - Práctica 2</string>
     <string name="nuevo_contacto">Nuevo Contacto</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellidos">Apellidos</string>
     <string name="tel_fono">Teléfono</string>
     <string name="notas">Notas</string>
     <string name="ok">OK</string>
     <string name="cancel">CANCEL</string>
+    <string name="nombreh">Nombre</string>
+    <string name="apellidosh">Apellidos</string>
 </resources>
